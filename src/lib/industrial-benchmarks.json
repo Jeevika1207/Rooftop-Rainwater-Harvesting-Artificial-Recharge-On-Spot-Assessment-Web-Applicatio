@@ -1,0 +1,39 @@
+
+{
+  "industrial": {
+    "costs": {
+      "storagePerM3": 5500,
+      "waterPerKL": 45
+    },
+    "benchmarks": {
+      "groundwaterLevelM": 15,
+      "tankDepthM": 3.5,
+      "workingDays": 300,
+      "criticalStorageDays": 7,
+      "maxTankCapacityL": 500000,
+      "principalAquifer": "Deep Alluvial / Hard Rock Fissured"
+    }
+  },
+  "residential": {
+    "costs": {
+      "storagePerM3": 3500,
+      "waterPerKL": 25
+    },
+    "benchmarks": {
+      "groundwaterLevelM": 10,
+      "tankDepthM": 2.0,
+      "workingDays": 365,
+      "criticalStorageDays": 3,
+      "maxTankCapacityL": 50000,
+      "litersPerPersonPerDay": 135,
+      "principalAquifer": "Upper Alluvial / Weathered Crust"
+    }
+  },
+  "runoffCoefficients": {
+    "concrete": 0.75,
+    "metal": 0.95,
+    "asbestos": 0.8,
+    "tiled": 0.85,
+    "default": 0.85
+  }
+}

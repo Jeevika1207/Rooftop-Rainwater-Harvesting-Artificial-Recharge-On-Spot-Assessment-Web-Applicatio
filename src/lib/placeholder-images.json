@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-industrial",
+      "description": "Industrial factory with large rooftop and water infrastructure",
+      "imageUrl": "https://picsum.photos/seed/industrial1/1200/600",
+      "imageHint": "industrial factory"
+    },
+    {
+      "id": "water-tank",
+      "description": "Large scale industrial water storage tanks",
+      "imageUrl": "https://picsum.photos/seed/tank1/600/400",
+      "imageHint": "water storage"
+    }
+  ]
+}
